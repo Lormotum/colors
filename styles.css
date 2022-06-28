@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+nav{
+    background-color: white;
+    color: #222;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+nav button{
+    border: none;
+    outline: none;
+    padding: 10px 8px;
+    color: white;
+    cursor: pointer;
+    background: steelblue;
+
+
+}
+
+.header{
+    background-color: rgb(13,147,244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 10% 29%;
+}
+
+.squares{
+     display: grid;
+     grid-template-columns: repeat(3, 200px);
+     gap: 10px;
+}
+
+.fade{
+    opacity: 0;
+    transition: all 0.5s;
+}
